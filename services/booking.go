@@ -9,7 +9,7 @@ var bookings []model.User
 
 func AddBookings(user model.User) {
 	bookings = append(bookings, user)
-	fmt.Printf("\n%v tickets booked for %v %v", user.Tickets, user.FirstName, user.LastName)
+	fmt.Printf("%v tickets booked for %v %v", user.Tickets, user.FirstName, user.LastName)
 }
 
 func ShowBookings() {

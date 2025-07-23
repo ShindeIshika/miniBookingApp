@@ -7,6 +7,6 @@ import (
 )
 
 func SendConfirmation(user model.User){
-	time.Sleep(10*time.Second)
-	fmt.Printf("\nConfirmation email sent to %v for %v tickets.\n",user.Email,user.Tickets)
+	time.Sleep(time.Second)
+	fmt.Printf("\nSending confirmation email to %v for %v tickets.\n",user.Email,user.Tickets)
 }
