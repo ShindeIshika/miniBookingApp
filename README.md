@@ -1,6 +1,6 @@
 # miniBookingApp
 
-A simple and interactive Go CLI application made using AI assistance to simulate a mini ticket booking system. This mini project demonstrates concepts like user input, validation, concurrency, and modular design in Golang.
+A simple and interactive Go CLI application to simulate a mini ticket booking system. This mini project demonstrates concepts like user input, validation, concurrency, and modular design in Golang.
 
 ✨ Features  
 ➕ Book tickets using user input  
